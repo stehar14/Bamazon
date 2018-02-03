@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "mock storefront",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/stehar14/Bamazon"
+  },
+  "keywords": [
+    "CLI",
+    "node",
+    "storefront"
+  ],
+  "author": "Steve Harold (stehar14)",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^5.0.1",
+    "mysql": "^2.15.0"
+  }
+}
