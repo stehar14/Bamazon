@@ -28,7 +28,9 @@ var displayProducts = function() {
             table.push(arr);
         }
         console.log(table.toString());
+        promptId();
     });
+    
 }
 
 var promptId = function() {
@@ -65,9 +67,11 @@ var checkAvailability = function(product, units){
             })
             con.query("UPDATE products SET ? WHERE ?", [{product_sales: newSales}, {item_id: product}], function(err){
                 if (err) throw err;
+                con.end();
             })
         } else {
             console.log(units + " " + result[0].product_name + " is not in stock!");
+            con.end();
         }
     });
 }
@@ -76,5 +80,4 @@ var checkAvailability = function(product, units){
 con.connect(function(err) {
     if (err) throw err;
     displayProducts();
-    promptId();
 });
