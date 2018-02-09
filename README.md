@@ -6,7 +6,7 @@ Bamazon is an Amazon-like storefront built using MySQL and Node and utilizing th
 
 ## Customer
 
-![Initialize](https://github.com/stehar14/Bamazon/images/custinit.PNG "Initialize")
+![Initialize](https://github.com/stehar14/Bamazon/blob/master/images/custDisplay.PNG "Initialize")
 * Run the program 'bamazonCustomer.js'.
 
 ![Display](https://github.com/stehar14/Bamazon/images/custDisplay.PNG "Display")
