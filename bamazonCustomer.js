@@ -70,7 +70,7 @@ var checkAvailability = function(product, units){
                 con.end();
             })
         } else {
-            console.log(units + " " + result[0].product_name + " is not in stock!");
+            console.log("==================================================\n  " + units + " " + result[0].product_name + " is not in stock! \n==================================================\n");
             con.end();
         }
     });
