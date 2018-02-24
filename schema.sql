@@ -13,7 +13,7 @@ CREATE TABLE products(
     stock_quantity INT NOT NULL,
     product_sales INT,
     PRIMARY KEY (item_id)
-)
+);
 
 CREATE TABLE departments(
     department_id INT NOT NULL AUTO_INCREMENT,
