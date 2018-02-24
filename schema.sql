@@ -3,7 +3,6 @@ DROP DATABASE IF EXISTS bamazon;
 -- Creates the "bamazon" database --
 CREATE DATABASE bamazon;
 
--- Makes it so all of the following code will affect top_songsDB --
 USE bamazon;
 
 CREATE TABLE products(
